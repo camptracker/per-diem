@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Per Diem Rates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            padding: 30px 40px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        select {
+            padding: 10px 15px;
+            font-size: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .stats {
+            padding: 20px 40px;
+            background: #fff9e6;
+            border-bottom: 1px solid #ffe799;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .stat-item {
+            flex: 1;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .table-container {
+            padding: 40px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        thead th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        thead th:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: background-color 0.2s;
+        }
+
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        tbody td {
+            padding: 15px;
+        }
+
+        .country-flag {
+            width: 32px;
+            height: 24px;
+            object-fit: cover;
+            border-radius: 3px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .country-name {
+            font-weight: 600;
+            color: #212529;
+        }
+
+        .city-name {
+            color: #6c757d;
+            font-size: 0.95em;
+        }
+
+        .rate {
+            font-weight: 600;
+            color: #28a745;
+            font-size: 1.1em;
+        }
+
+        .source-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+
+        .source-link:hover {
+            text-decoration: underline;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background: #212529;
+            color: #adb5bd;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .sort-indicator {
+            display: inline-block;
+            margin-left: 5px;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .controls {
+                flex-direction: column;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .table-container {
+                padding: 20px;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            thead th, tbody td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Global Per Diem Rates</h1>
+            <p>Statutory daily allowances for government and business travel worldwide</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search by country or city..." autocomplete="off">
+            </div>
+            <div class="filter-group">
+                <label for="region-filter">Region:</label>
+                <select id="region-filter">
+                    <option value="all">All Regions</option>
+                    <option value="africa">Africa</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="middle-east">Middle East</option>
+                    <option value="north-america">North America</option>
+                    <option value="oceania">Oceania</option>
+                    <option value="south-america">South America</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="source-filter">Source:</label>
+                <select id="source-filter">
+                    <option value="all">All Sources</option>
+                    <option value="us-state">US State Dept</option>
+                    <option value="gsa">GSA (USA)</option>
+                    <option value="national">National Govt</option>
+                    <option value="eu">EU Standard</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-value" id="total-countries">0</div>
+                <div class="stat-label">Countries</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="total-locations">0</div>
+                <div class="stat-label">Locations</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="avg-rate">$0</div>
+                <div class="stat-label">Avg Per Diem</div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="perdiem-table">
+                <thead>
+                    <tr>
+                        <th data-sort="country">Country <span class="sort-indicator">▼</span></th>
+                        <th data-sort="city">Location</th>
+                        <th data-sort="lodging">Lodging</th>
+                        <th data-sort="meals">Meals & IE</th>
+                        <th data-sort="total">Total Per Diem</th>
+                        <th data-sort="currency">Currency</th>
+                        <th>Source</th>
+                        <th>Updated</th>
+                    </tr>
+                </thead>
+                <tbody id="perdiem-tbody">
+                    <!-- Data will be populated by JavaScript -->
+                </tbody>
+            </table>
+            <div id="no-results" class="no-results" style="display: none;">
+                No results found. Try a different search term.
+            </div>
+        </div>
+
+        <footer>
+            <p>Data compiled from U.S. Department of State, GSA, and national government sources.</p>
+            <p style="margin-top: 10px;">
+                <strong>Disclaimer:</strong> Rates are subject to change. Always verify with official sources before travel.
+            </p>
+            <p style="margin-top: 15px;">
+                Last updated: <span id="last-updated">April 2026</span>
+            </p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
