@@ -6,6 +6,19 @@ A comprehensive, searchable database of statutory per diem rates for government 
 
 **https://camptracker.github.io/per-diem/**
 
+## ⚠️ CURRENT STATUS: VERIFICATION IN PROGRESS
+
+**Important:** All previous unverified data has been removed. 
+
+We are manually verifying every per diem rate from official government sources. **Only confirmed, verified entries are displayed.**
+
+**Current progress:**
+- ✅ Verification framework established
+- 🔍 G7 + G20 countries in progress
+- 📊 Verified entries: 0 (manual verification underway)
+
+Check back soon for verified data!
+
 ## 📊 Data Sources
 
 ### U.S. Department of State (Primary Source)
