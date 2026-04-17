@@ -8,20 +8,21 @@ A comprehensive, searchable database of statutory per diem rates for government 
 
 ## ✅ VERIFIED DATA LIVE
 
-**All entries verified from official sources!**
+**All US domestic per diem rates verified from official sources!**
 
 **Current status:**
-- ✅ **9 verified US cities** (GSA FY 2026 rates)
-- ✅ Standard CONUS rate verified
+- ✅ **346 verified US locations** (GSA FY 2026 rates)
+- ✅ Complete CONUS coverage (all 50 states)
+- ✅ Standard rates + non-standard areas
 - ✅ Automated verification via GSA API
 - ✅ All rates current as of April 17, 2026
-- 🔜 Foreign countries (G7+G20) coming soon
+- 🔜 Foreign countries (G7+G20) coming next
 
-**Verified cities:**
-- Washington, DC • New York, NY • San Francisco, CA
-- Los Angeles, CA • Chicago, IL • Boston, MA
-- Seattle, WA • Miami, FL
-- Plus: Standard CONUS rate for unlisted locations
+**Coverage includes:**
+- All major US cities (NYC, DC, SF, LA, Chicago, Boston, etc.)
+- State capitals and business hubs
+- Tourist destinations and high-cost areas
+- Standard rates for unlisted locations by state
 
 ## 📊 Data Sources
 
