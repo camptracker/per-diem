@@ -121,6 +121,19 @@ function renderTable() {
     if (filteredData.length === 0) {
         noResults.style.display = 'block';
         document.querySelector('table').style.display = 'none';
+        
+        // Update message based on whether data exists at all
+        if (perDiemData.length === 0) {
+            noResults.innerHTML = `
+                <h3>Verification In Progress</h3>
+                <p>All per diem rates are being manually verified from official government sources.</p>
+                <p>We are currently verifying G7 and G20 countries first.</p>
+                <p><strong>Only confirmed, verified rates will be displayed.</strong></p>
+                <p style="margin-top: 20px;">Check back soon for verified data!</p>
+            `;
+        } else {
+            noResults.innerHTML = 'No results found. Try a different search term.';
+        }
         return;
     }
     
