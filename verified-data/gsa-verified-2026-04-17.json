@@ -1,0 +1,544 @@
+[
+  {
+    "city": "Standard Rate (CONUS)",
+    "country": "United States",
+    "region": "north-america",
+    "lodging": 110,
+    "meals": 68,
+    "total": 178,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026
+  },
+  {
+    "city": "Washington, DC",
+    "country": "United States",
+    "region": "north-america",
+    "state": "DC",
+    "county": "Washington DC (also the cities of Alexandria, Falls Church and Fairfax, and the counties of Arlington and Fairfax, in Virginia; and the counties of Montgomery and Prince George's in Maryland)",
+    "lodging": 234,
+    "meals": 92,
+    "total": 326,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 196
+      },
+      {
+        "month": "February",
+        "lodging": 196
+      },
+      {
+        "month": "March",
+        "lodging": 276
+      },
+      {
+        "month": "April",
+        "lodging": 276
+      },
+      {
+        "month": "May",
+        "lodging": 276
+      },
+      {
+        "month": "June",
+        "lodging": 276
+      },
+      {
+        "month": "July",
+        "lodging": 183
+      },
+      {
+        "month": "August",
+        "lodging": 183
+      },
+      {
+        "month": "September",
+        "lodging": 275
+      },
+      {
+        "month": "October",
+        "lodging": 275
+      },
+      {
+        "month": "November",
+        "lodging": 196
+      },
+      {
+        "month": "December",
+        "lodging": 196
+      }
+    ]
+  },
+  {
+    "city": "New York, NY",
+    "country": "United States",
+    "region": "north-america",
+    "state": "NY",
+    "county": "Bronx / Kings / New York / Queens / Richmond",
+    "lodging": 277,
+    "meals": 92,
+    "total": 369,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 179
+      },
+      {
+        "month": "February",
+        "lodging": 179
+      },
+      {
+        "month": "March",
+        "lodging": 281
+      },
+      {
+        "month": "April",
+        "lodging": 281
+      },
+      {
+        "month": "May",
+        "lodging": 281
+      },
+      {
+        "month": "June",
+        "lodging": 281
+      },
+      {
+        "month": "July",
+        "lodging": 237
+      },
+      {
+        "month": "August",
+        "lodging": 237
+      },
+      {
+        "month": "September",
+        "lodging": 342
+      },
+      {
+        "month": "October",
+        "lodging": 342
+      },
+      {
+        "month": "November",
+        "lodging": 342
+      },
+      {
+        "month": "December",
+        "lodging": 342
+      }
+    ]
+  },
+  {
+    "city": "San Francisco, CA",
+    "country": "United States",
+    "region": "north-america",
+    "state": "CA",
+    "county": "San Francisco",
+    "lodging": 263,
+    "meals": 92,
+    "total": 355,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 259
+      },
+      {
+        "month": "February",
+        "lodging": 259
+      },
+      {
+        "month": "March",
+        "lodging": 259
+      },
+      {
+        "month": "April",
+        "lodging": 259
+      },
+      {
+        "month": "May",
+        "lodging": 259
+      },
+      {
+        "month": "June",
+        "lodging": 259
+      },
+      {
+        "month": "July",
+        "lodging": 259
+      },
+      {
+        "month": "August",
+        "lodging": 259
+      },
+      {
+        "month": "September",
+        "lodging": 272
+      },
+      {
+        "month": "October",
+        "lodging": 272
+      },
+      {
+        "month": "November",
+        "lodging": 272
+      },
+      {
+        "month": "December",
+        "lodging": 272
+      }
+    ]
+  },
+  {
+    "city": "Los Angeles, CA",
+    "country": "United States",
+    "region": "north-america",
+    "state": "CA",
+    "county": "Los Angeles / Orange / Ventura / Edwards AFB less the city of Santa Monica",
+    "lodging": 191,
+    "meals": 86,
+    "total": 277,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 191
+      },
+      {
+        "month": "February",
+        "lodging": 191
+      },
+      {
+        "month": "March",
+        "lodging": 191
+      },
+      {
+        "month": "April",
+        "lodging": 191
+      },
+      {
+        "month": "May",
+        "lodging": 191
+      },
+      {
+        "month": "June",
+        "lodging": 191
+      },
+      {
+        "month": "July",
+        "lodging": 191
+      },
+      {
+        "month": "August",
+        "lodging": 191
+      },
+      {
+        "month": "September",
+        "lodging": 191
+      },
+      {
+        "month": "October",
+        "lodging": 191
+      },
+      {
+        "month": "November",
+        "lodging": 191
+      },
+      {
+        "month": "December",
+        "lodging": 191
+      }
+    ]
+  },
+  {
+    "city": "Chicago, IL",
+    "country": "United States",
+    "region": "north-america",
+    "state": "IL",
+    "county": "Cook / Lake",
+    "lodging": 195,
+    "meals": 92,
+    "total": 287,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 142
+      },
+      {
+        "month": "February",
+        "lodging": 142
+      },
+      {
+        "month": "March",
+        "lodging": 142
+      },
+      {
+        "month": "April",
+        "lodging": 234
+      },
+      {
+        "month": "May",
+        "lodging": 234
+      },
+      {
+        "month": "June",
+        "lodging": 234
+      },
+      {
+        "month": "July",
+        "lodging": 202
+      },
+      {
+        "month": "August",
+        "lodging": 202
+      },
+      {
+        "month": "September",
+        "lodging": 223
+      },
+      {
+        "month": "October",
+        "lodging": 223
+      },
+      {
+        "month": "November",
+        "lodging": 223
+      },
+      {
+        "month": "December",
+        "lodging": 142
+      }
+    ]
+  },
+  {
+    "city": "Boston, MA",
+    "country": "United States",
+    "region": "north-america",
+    "state": "MA",
+    "county": "Suffolk, city of Cambridge",
+    "lodging": 273,
+    "meals": 92,
+    "total": 365,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 209
+      },
+      {
+        "month": "February",
+        "lodging": 209
+      },
+      {
+        "month": "March",
+        "lodging": 291
+      },
+      {
+        "month": "April",
+        "lodging": 291
+      },
+      {
+        "month": "May",
+        "lodging": 291
+      },
+      {
+        "month": "June",
+        "lodging": 291
+      },
+      {
+        "month": "July",
+        "lodging": 291
+      },
+      {
+        "month": "August",
+        "lodging": 291
+      },
+      {
+        "month": "September",
+        "lodging": 349
+      },
+      {
+        "month": "October",
+        "lodging": 349
+      },
+      {
+        "month": "November",
+        "lodging": 209
+      },
+      {
+        "month": "December",
+        "lodging": 209
+      }
+    ]
+  },
+  {
+    "city": "Seattle, WA",
+    "country": "United States",
+    "region": "north-america",
+    "state": "WA",
+    "county": "King",
+    "lodging": 208,
+    "meals": 92,
+    "total": 300,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 188
+      },
+      {
+        "month": "February",
+        "lodging": 188
+      },
+      {
+        "month": "March",
+        "lodging": 188
+      },
+      {
+        "month": "April",
+        "lodging": 188
+      },
+      {
+        "month": "May",
+        "lodging": 188
+      },
+      {
+        "month": "June",
+        "lodging": 248
+      },
+      {
+        "month": "July",
+        "lodging": 248
+      },
+      {
+        "month": "August",
+        "lodging": 248
+      },
+      {
+        "month": "September",
+        "lodging": 248
+      },
+      {
+        "month": "October",
+        "lodging": 188
+      },
+      {
+        "month": "November",
+        "lodging": 188
+      },
+      {
+        "month": "December",
+        "lodging": 188
+      }
+    ]
+  },
+  {
+    "city": "Miami, FL",
+    "country": "United States",
+    "region": "north-america",
+    "state": "FL",
+    "county": "Miami-Dade",
+    "lodging": 177,
+    "meals": 92,
+    "total": 269,
+    "currency": "USD",
+    "source": "GSA",
+    "sourceUrl": "https://www.gsa.gov/travel/plan-book/per-diem-rates",
+    "updated": "2026-10",
+    "verifiedDate": "2026-04-17",
+    "fiscalYear": 2026,
+    "seasonalRates": [
+      {
+        "month": "January",
+        "lodging": 210
+      },
+      {
+        "month": "February",
+        "lodging": 232
+      },
+      {
+        "month": "March",
+        "lodging": 232
+      },
+      {
+        "month": "April",
+        "lodging": 182
+      },
+      {
+        "month": "May",
+        "lodging": 182
+      },
+      {
+        "month": "June",
+        "lodging": 145
+      },
+      {
+        "month": "July",
+        "lodging": 145
+      },
+      {
+        "month": "August",
+        "lodging": 145
+      },
+      {
+        "month": "September",
+        "lodging": 145
+      },
+      {
+        "month": "October",
+        "lodging": 145
+      },
+      {
+        "month": "November",
+        "lodging": 145
+      },
+      {
+        "month": "December",
+        "lodging": 210
+      }
+    ]
+  }
+]

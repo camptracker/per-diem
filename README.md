@@ -6,18 +6,22 @@ A comprehensive, searchable database of statutory per diem rates for government 
 
 **https://camptracker.github.io/per-diem/**
 
-## ⚠️ CURRENT STATUS: VERIFICATION IN PROGRESS
+## ✅ VERIFIED DATA LIVE
 
-**Important:** All previous unverified data has been removed. 
+**All entries verified from official sources!**
 
-We are manually verifying every per diem rate from official government sources. **Only confirmed, verified entries are displayed.**
+**Current status:**
+- ✅ **9 verified US cities** (GSA FY 2026 rates)
+- ✅ Standard CONUS rate verified
+- ✅ Automated verification via GSA API
+- ✅ All rates current as of April 17, 2026
+- 🔜 Foreign countries (G7+G20) coming soon
 
-**Current progress:**
-- ✅ Verification framework established
-- 🔍 G7 + G20 countries in progress
-- 📊 Verified entries: 0 (manual verification underway)
-
-Check back soon for verified data!
+**Verified cities:**
+- Washington, DC • New York, NY • San Francisco, CA
+- Los Angeles, CA • Chicago, IL • Boston, MA
+- Seattle, WA • Miami, FL
+- Plus: Standard CONUS rate for unlisted locations
 
 ## 📊 Data Sources
 

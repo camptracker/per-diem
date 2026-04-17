@@ -104,8 +104,8 @@ async function getStandardRate() {
     
     const data = await makeRequest(`/travel/perdiem/v2/rates/conus/lodging/${FISCAL_YEAR}`);
     
-    // Find standard rate (DID = 0)
-    const standardRate = data.find(item => item.DID === "0" && item.State === "");
+    // Find standard rate (DID = 0, City = "Standard Rate")
+    const standardRate = data.find(item => item.DID === "0" && item.City === "Standard Rate");
     
     if (!standardRate) {
         throw new Error('Standard rate not found in API response');
