@@ -1,0 +1,17 @@
+# Per Diem Data Collection
+# Format: COUNTRY | CITY | LODGING | MEALS | TOTAL
+#
+# Instructions:
+# 1. Website should be open: https://allowances.state.gov/web920/per_diem.asp
+# 2. Select a country from dropdown
+# 3. Click "Go"
+# 4. Copy cities and rates below (one per line)
+# 5. When done with all countries, I'll convert to JSON
+#
+# Example:
+# UNITED KINGDOM | London | 352 | 172 | 524
+# UNITED KINGDOM | Edinburgh | 245 | 145 | 390
+#
+# Start entering data below this line:
+# ------------------------------------------------
+

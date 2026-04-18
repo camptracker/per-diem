@@ -349,7 +349,30 @@ const perDiemData = [
     { country: "United States", region: "north-america", city: "Charleston, WV", lodging: 115, meals: 68, total: 183, currency: "USD", source: "GSA", sourceUrl: "https://www.gsa.gov/travel/plan-book/per-diem-rates", updated: "2026-10" },
     { country: "United States", region: "north-america", city: "Standard Rate, WY", lodging: 110, meals: 68, total: 178, currency: "USD", source: "GSA", sourceUrl: "https://www.gsa.gov/travel/plan-book/per-diem-rates", updated: "2026-10" },
     { country: "United States", region: "north-america", city: "Cody, WY", lodging: 148, meals: 74, total: 222, currency: "USD", source: "GSA", sourceUrl: "https://www.gsa.gov/travel/plan-book/per-diem-rates", updated: "2026-10" },
-    { country: "United States", region: "north-america", city: "Jackson / Pinedale, WY", lodging: 281, meals: 92, total: 373, currency: "USD", source: "GSA", sourceUrl: "https://www.gsa.gov/travel/plan-book/per-diem-rates", updated: "2026-10" },
+    { country: "United States", region: "north-america", city: "Jackson / Pinedale, WY", lodging: 281, meals: 92, total: 373, currency: "USD", source: "GSA", sourceUrl: "https://www.gsa.gov/travel/plan-book/per-diem-rates", updated: "2026-10" },,
+    { country: "UNITED KINGDOM", region: "europe", city: "Edinburgh", lodging: 621, meals: 173, total: 794, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Crawley", lodging: 424, meals: 174, total: 598, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "London", lodging: 424, meals: 174, total: 598, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Oxford", lodging: 276, meals: 161, total: 437, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Cambridge", lodging: 276, meals: 143, total: 419, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Cheltenham", lodging: 266, meals: 122, total: 388, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Glasgow", lodging: 257, meals: 127, total: 384, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Manchester", lodging: 251, meals: 133, total: 384, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Liverpool", lodging: 232, meals: 135, total: 367, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Caversham", lodging: 236, meals: 130, total: 366, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Reading", lodging: 236, meals: 130, total: 366, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Other", lodging: 252, meals: 108, total: 360, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Harrogate", lodging: 208, meals: 120, total: 328, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Menwith Hill", lodging: 208, meals: 120, total: 328, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Belfast", lodging: 208, meals: 110, total: 318, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Gatwick", lodging: 182, meals: 129, total: 311, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Horley", lodging: 182, meals: 129, total: 311, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Bristol", lodging: 207, meals: 98, total: 305, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Fairford", lodging: 180, meals: 94, total: 274, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Cardiff, Wales", lodging: 180, meals: 88, total: 268, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "High Wycombe", lodging: 162, meals: 98, total: 260, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Loudwater", lodging: 151, meals: 105, total: 256, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" },
+    { country: "UNITED KINGDOM", region: "europe", city: "Birmingham", lodging: 174, meals: 77, total: 251, currency: "USD", source: "US State Dept", sourceUrl: "https://allowances.state.gov", updated: "2026-04", verifiedDate: "2026-04-18" }
 ];
 
 // Data sources metadata
@@ -371,15 +394,15 @@ const dataSources = {
         updateFrequency: "Annual (October 1, fiscal year start)",
         verifiedDate: "2026-04-17",
         fiscalYear: 2026,
-        totalEntries: 346
+        totalEntries: 369
     }
 };
 
 // Verification log
 const verificationLog = {
     lastAudit: "2026-04-17",
-    totalEntries: 346,
-    verifiedEntries: 346,
+    totalEntries: 369,
+    verifiedEntries: 369,
     pendingVerification: 0,
-    verificationStatus: "COMPLETE - All US CONUS locations verified"
+    verificationStatus: "COMPLETE - 346 US + 23 UK locations verified"
 };
